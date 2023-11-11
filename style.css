@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    text-align: left;
+    Font-size: 17px;
+    margin: 0;
+    padding: 0;
+    color: hsl(192, 100%, 9%);
+    font-family: 'Open Sans', sans-serif;
+}
+.countainer{width: 90%;margin: auto;}
+
+
+/* * * * L A N D I N G - P A G E * * * */
+.landing{
+    height: 100vh;
+    background-size: cover;
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(images/bg-hero-desktop.svg);
+}
+/* * * * H E A D E R - P A R T * * * */
+.landing header{
+    height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.landing header img{width: 200px;height: 40px;}
+.landing button{
+    padding: 10px;width: 200px;
+    font-weight: 700;border: none;
+    text-align: center;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 3px 3px 0px #e5e5e5;
+}
+/* * * * T E X T - P A R T * * * */
+.landing section{
+    overflow: hidden;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.landing section .content{
+    width: 40%;height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.landing section h1{font-size: 40px;}
+.landing section p{font-size: 17px;}
+.landing section button{
+    width: 270px;
+    padding: 18px;
+    font-size: 15px;
+    border-radius: 30px;
+    color: hsl(193, 100%, 96%);
+    background: hsl(322, 100%, 66%);
+}
+/* * * * I M A G E - P A R T * * * */
+.landing section .mockup{
+    width: 50%;height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(images/illustration-mockups.svg);
+}
+
+
+/* * * * C E N T E R - P A G E * * * */
+.center{
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.center .box{
+    width: 100%;
+    height: 60vh;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 20px 0 #e5e5e5;
+}
+/* * * * T E X T - P A R T * * * */
+.center .box .txt{width: 40%;}
+.center .box .txt h1{font-size: 25px;}
+.center .box .txt p{
+    font-size: 17px;
+    margin-top: 20px;
+    color: hsl(208, 11%, 55%);
+}
+/* * * * I M A G E - P A R T * * * */
+.center .box img{width: 30%;height: 100%;}
+
+
+
+/* * * * F O O T E R - P A G E * * * */
+footer{
+    height: 100vh;
+    background: hsl(192, 100%, 9%);
+}
+/* * * * C A R D - P A R T * * * */
+footer .card{
+    width: 100%;
+    height: 20vh;
+    background: #fff;
+}
+footer .card div{
+    width: 50%;
+    height: 230px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px -5px #00252e;
+}
+.card div h1{font-size: 25px;}
+.card div button{
+    width: 50%;
+    padding: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: 40px;
+    color: hsl(193, 100%, 96%);
+    background: hsl(322, 100%, 66%);
+}
+
+
+
+
+/* * * * C O N T A C T - P A R T * * * */
+footer img{
+    width: 200px;
+    height: 40px;
+    margin-top: 130px;
+    margin-bottom: 40px;
+}
+
+footer p{color: hsl(193, 100%, 96%);}
+
+footer .contact{
+    height: 200px;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+/* * * * L E F T - P A R T * * * */
+footer .contact .left{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .contact .left div{display: flex;}
+footer .contact .left img{
+    height: 20px;
+    width: 20px;
+    margin: 0 20px 0 0;
+}
+.left div:first-child img{margin-top: 5px;}
+
+/* * * * M I D D L E - P A R T * * * */
+footer .contact .mid{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* * * * R I G H T - P A R T * * * */
+footer .contact .right{
+    width: 20%;
+    display: flex;
+}
+footer .contact .right div{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .contact .right div img{
+    height: 15px;
+    width: 15px;
+    margin: 0
+}
+/* * * * C O P Y - R I G H T * * * */
+footer .CPT{text-align: right;}
+
+
+/* * * * H O V E R - P A R T * * * */
+button:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+footer P:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
